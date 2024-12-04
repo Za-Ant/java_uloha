@@ -108,3 +108,11 @@ public class HockeyManager {
         }
     }
 }
+public class Main { 
+    public static void main(String[] args) { 
+        HockeyManager manager = new HockeyManager(); 
+        System.out.println("All Players:");
+        manager.PrintAllPlayers();
+    } 
+}
+
